@@ -2,6 +2,13 @@
 
 HF Link:
 
+### Achieved:
+1. Training Loss: 3.680
+2. Validation Loss: 4.940
+3. Class accuracy: 81.601883%
+4. No obj accuracy: 97.991463%
+5. Obj accuracy: 75.976616%
+
 ### Tasks:
 1. :heavy_check_mark: Move the code to PytorchLightning
 2. Train the model to reach such that all of these are true:
@@ -400,4 +407,66 @@ HF Link:
 
 ### LR Finder
 ![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/a6d64f13-a7b7-4e17-abfc-3ec86e84b710)
+
+### Loss & Accuracy
+Training & Validation Loss:
+![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/9391157e-a889-480d-b233-b72e86745245)
+
+Testing Accuracy:
+```python
+0%|          | 0/39 [00:00<?, ?it/s]
+  3%|▎         | 1/39 [00:05<03:24,  5.37s/it]
+  5%|▌         | 2/39 [00:11<03:32,  5.75s/it]
+  8%|▊         | 3/39 [00:16<03:14,  5.41s/it]
+ 10%|█         | 4/39 [00:21<03:06,  5.33s/it]
+ 13%|█▎        | 5/39 [00:26<02:55,  5.17s/it]
+ 15%|█▌        | 6/39 [00:31<02:50,  5.16s/it]
+ 18%|█▊        | 7/39 [00:36<02:43,  5.11s/it]
+ 21%|██        | 8/39 [00:42<02:48,  5.43s/it]
+ 23%|██▎       | 9/39 [00:48<02:44,  5.47s/it]
+ 26%|██▌       | 10/39 [00:54<02:41,  5.58s/it]
+ 28%|██▊       | 11/39 [00:59<02:36,  5.59s/it]
+ 31%|███       | 12/39 [01:05<02:35,  5.77s/it]
+ 33%|███▎      | 13/39 [01:11<02:28,  5.70s/it]
+ 36%|███▌      | 14/39 [01:16<02:15,  5.42s/it]
+ 38%|███▊      | 15/39 [01:21<02:07,  5.30s/it]
+ 41%|████      | 16/39 [01:26<02:02,  5.34s/it]
+ 44%|████▎     | 17/39 [01:31<01:54,  5.23s/it]
+ 46%|████▌     | 18/39 [01:36<01:49,  5.22s/it]
+ 49%|████▊     | 19/39 [01:42<01:43,  5.20s/it]
+ 51%|█████▏    | 20/39 [01:46<01:33,  4.94s/it]
+ 54%|█████▍    | 21/39 [01:50<01:23,  4.64s/it]
+ 56%|█████▋    | 22/39 [01:54<01:14,  4.41s/it]
+ 59%|█████▉    | 23/39 [01:57<01:03,  3.96s/it]
+ 62%|██████▏   | 24/39 [02:00<00:54,  3.66s/it]
+ 64%|██████▍   | 25/39 [02:04<00:55,  3.94s/it]
+ 67%|██████▋   | 26/39 [02:10<00:56,  4.38s/it]
+ 69%|██████▉   | 27/39 [02:14<00:53,  4.47s/it]
+ 72%|███████▏  | 28/39 [02:20<00:52,  4.77s/it]
+ 74%|███████▍  | 29/39 [02:25<00:50,  5.04s/it]
+ 77%|███████▋  | 30/39 [02:31<00:47,  5.25s/it]
+ 79%|███████▉  | 31/39 [02:37<00:42,  5.36s/it]
+ 82%|████████▏ | 32/39 [02:42<00:38,  5.43s/it]
+ 85%|████████▍ | 33/39 [02:47<00:31,  5.24s/it]
+ 87%|████████▋ | 34/39 [02:53<00:26,  5.29s/it]
+ 90%|████████▉ | 35/39 [02:58<00:21,  5.32s/it]
+ 92%|█████████▏| 36/39 [03:03<00:15,  5.23s/it]
+ 95%|█████████▍| 37/39 [03:08<00:10,  5.26s/it]
+ 97%|█████████▋| 38/39 [03:14<00:05,  5.32s/it]
+100%|██████████| 39/39 [03:17<00:00,  5.07s/it]
+Class accuracy is: 81.601883%
+No obj accuracy is: 97.991463%
+Obj accuracy is: 75.976616%
+```
+### MAP Calculations
+
+### Tensorboard Plots
+Training Loss vs Steps:
+![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/5cb753e0-377b-4d9f-a240-871270ed50db)
+
+Validation Loss vs Steps:
+(Info: Validation loss calculated every 10 epochs to save time, thats why the straight line)
+![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/7401c0aa-f7ff-4a5b-bab2-dbb5ebe0b400)
+
+
 
