@@ -30,3 +30,9 @@ HF Link:
     - Share HuggingFace App Link
     - Share LightningCode Link on Github
     - Share notebook link (with logs) on GitHub
+
+### Model Summary
+
+### LR Finder
+![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/a6d64f13-a7b7-4e17-abfc-3ec86e84b710)
+
