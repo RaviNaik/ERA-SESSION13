@@ -12,11 +12,11 @@ HF Link:
 
 ### Tasks:
 1. :heavy_check_mark: Move the code to PytorchLightning
-2. Train the model to reach such that all of these are true:
+2. :heavy_check_mark: Train the model to reach such that all of these are true:
     - Class accuracy is more than 75%
     - No Obj accuracy of more than 95%
     - Object Accuracy of more than 70% (assuming you had to reduce the kernel numbers, else 80/98/78)
-    - Ideally trailed till 40 epochs
+    - Ideally trained till 40 epochs
 3. :heavy_check_mark: Add these training features:
     - Add multi-resolution training - the code shared trains only on one resolution 416
     - Add Implement Mosaic Augmentation only 75% of the times
