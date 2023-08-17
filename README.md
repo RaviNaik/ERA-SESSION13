@@ -3,12 +3,12 @@
 HF Link:
 
 ### Achieved:
-**1. Training Loss: 3.680
-2. Validation Loss: 4.940
-3. Class accuracy: 81.601883%
-4. No obj accuracy: 97.991463%
-5. Obj accuracy: 75.976616%
-6. MAP: 0.4366795**
+**1. Training Loss: 3.680 
+2. Validation Loss: 4.940 
+3. Class accuracy: 81.601883% 
+4. No obj accuracy: 97.991463% 
+5. Obj accuracy: 75.976616% 
+6. MAP: 0.4366795** 
 
 ### Tasks:
 1. :heavy_check_mark: Move the code to PytorchLightning
