@@ -507,13 +507,13 @@ Obj accuracy is: 75.976616%
 MAP: 0.43667954206466675
 ```
 ### Tensorboard Plots 
-**Training Loss vs Steps:** 
-![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/5cb753e0-377b-4d9f-a240-871270ed50db) 
+1. **Training Loss vs Steps:** 
+    ![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/5cb753e0-377b-4d9f-a240-871270ed50db) 
 
 
-**Validation Loss vs Steps:** 
-(Info: Validation loss calculated every 10 epochs to save time, thats why the straight line) 
-![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/7401c0aa-f7ff-4a5b-bab2-dbb5ebe0b400) 
+2. **Validation Loss vs Steps:** 
+    (Info: Validation loss calculated every 10 epochs to save time, thats why the straight line) 
+    ![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/7401c0aa-f7ff-4a5b-bab2-dbb5ebe0b400) 
 
 
 
