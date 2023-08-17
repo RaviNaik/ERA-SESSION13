@@ -3,12 +3,12 @@
 HF Link:
 
 ### Achieved:
-1. Training Loss: 3.680
+**1. Training Loss: 3.680
 2. Validation Loss: 4.940
 3. Class accuracy: 81.601883%
 4. No obj accuracy: 97.991463%
 5. Obj accuracy: 75.976616%
-6. MAP: 0.4366795
+6. MAP: 0.4366795**
 
 ### Tasks:
 1. :heavy_check_mark: Move the code to PytorchLightning
@@ -413,10 +413,10 @@ HF Link:
 ![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/a6d64f13-a7b7-4e17-abfc-3ec86e84b710)
 
 ### Loss & Accuracy
-Training & Validation Loss:
+**Training & Validation Loss:**
 ![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/9391157e-a889-480d-b233-b72e86745245)
 
-Testing Accuracy:
+**Testing Accuracy:**
 ```python
 0%|          | 0/39 [00:00<?, ?it/s]
   3%|▎         | 1/39 [00:05<03:24,  5.37s/it]
@@ -507,11 +507,11 @@ Obj accuracy is: 75.976616%
 MAP: 0.43667954206466675
 ```
 ### Tensorboard Plots 
-1. **Training Loss vs Steps:**
-   ![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/5cb753e0-377b-4d9f-a240-871270ed50db) 
-3. **Validation Loss vs Steps:** 
-    (Info: Validation loss calculated every 10 epochs to save time, thats why the straight line) 
-    ![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/7401c0aa-f7ff-4a5b-bab2-dbb5ebe0b400) 
+**Training Loss vs Steps:** ![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/5cb753e0-377b-4d9f-a240-871270ed50db) 
+
+**Validation Loss vs Steps:** 
+(Info: Validation loss calculated every 10 epochs to save time, thats why the straight line) 
+![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/7401c0aa-f7ff-4a5b-bab2-dbb5ebe0b400) 
 
 
 
