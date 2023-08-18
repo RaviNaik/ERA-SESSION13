@@ -11,7 +11,7 @@ Github Link: https://github.com/RaviNaik/ERA-SESSION13/tree/main
 5. **Obj accuracy: 75.976616%**
 6. **MAP: 0.4366795**
 
-Model Link: 
+Model Link: https://huggingface.co/spaces/RaviNaik/ERA-SESSION13/blob/main/model.ckpt
 
 """
 
