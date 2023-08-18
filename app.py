@@ -2,6 +2,7 @@ import gradio as gr
 import numpy as np
 from PIL import Image
 import torch
+import random
 
 import os
 import shutil
@@ -28,6 +29,7 @@ class FilterModel(torch.nn.Module):
         super().__init__()
         self.yolo = YOLOv3.load_from_checkpoint(
             "model.ckpt",
+            map_location={"cuda:1": "cpu"},
             in_channels=3,
             num_classes=config.NUM_CLASSES,
             epochs=config.NUM_EPOCHS,
@@ -38,7 +40,6 @@ class FilterModel(torch.nn.Module):
             scheduler_steps=len(datamodule.train_dataloader()),
             device_count=config.NUM_WORKERS,
         )
-        self.yolo = self.yolo.to("cpu")
 
     def forward(self, x):
         x = self.yolo(x)
@@ -62,11 +63,15 @@ def read_image(path):
     return data
 
 
-def sample_images():
-    all_imgs = os.listdir(config.IMG_DIR)
-    rand_inds = np.random.random_integers(0, len(all_imgs), 10).tolist()
-    images = [f"{config.IMG_DIR}/{all_imgs[ind]}" for ind in rand_inds]
-    return images
+# def sample_images():
+#     all_imgs = os.listdir(config.IMG_DIR)
+#     rand_inds = np.random.random_integers(0, len(all_imgs), 10).tolist()
+#     images = [f"{config.IMG_DIR}/{all_imgs[ind]}" for ind in rand_inds]
+#     return images
+
+all_imgs = os.listdir(config.IMG_DIR)
+random.shuffle(all_imgs)
+sample_images = [f"{config.IMG_DIR}/{all_imgs[i]}" for i in range(10)]
 
 
 def get_gradcam_images(gradcam_layer, images, gradcam_opacity):
@@ -97,7 +102,7 @@ def set_prediction_image(evt: gr.SelectData, gallery):
 
 
 def predict(is_gradcam, gradcam_layer, gradcam_opacity):
-    gradcam_images = None
+    gradcam_images = [None]
     img = read_image(prediction_image)
     image_transformed = config.test_transforms(image=img, bboxes=[])["image"]
     if is_gradcam:
