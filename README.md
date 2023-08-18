@@ -42,6 +42,10 @@ HF Link: https://huggingface.co/spaces/RaviNaik/ERA-SESSION13
 ### Results
 ![image](https://github.com/RaviNaik/ERA-SESSION13/blob/main/yolo_results.png)
 
+### Gradio App
+![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/95335687-e717-4467-bcb1-227a79dd5c3f)
+![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/3ab67d32-38e6-436a-86d4-b76b5bd52a77)
+
 ### Model Summary
 ```python
     | Name                       | Type              | Params
