@@ -26,15 +26,15 @@ HF Link: https://huggingface.co/spaces/RaviNaik/ERA-SESSION13
     - Change of batch size
     - Change of resolution
     - Change of OCP parameters
-5. Once done:
+5. :heavy_check_mark: Once done:
     - Move the app to HuggingFace Spaces
     - Allow custom upload of images
     - Share some samples from the existing dataset
     - Show the GradCAM output for the image that the user uploads as well as for the samples.
-6. Mention things like:
+6. :heavy_check_mark: Mention things like:
     - classes that your model support
     - link to the actual model
-7. Assignment:
+7. :heavy_check_mark: Assignment:
     - Share HuggingFace App Link
     - Share LightningCode Link on Github
     - Share notebook link (with logs) on GitHub
