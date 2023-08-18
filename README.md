@@ -513,5 +513,10 @@ MAP: 0.43667954206466675
 (Info: Validation loss calculated every 10 epochs to save time, thats why the straight line) 
 ![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/7401c0aa-f7ff-4a5b-bab2-dbb5ebe0b400) 
 
+### GradCAM Representations
+EigenCAM is used to generate CAM representation, since usal gradient based method wont work with detection models like Yolo, FRCNN etc.
+![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/3e3917f1-c8d1-4c3f-a028-de1292575e0b)
+
+
 
 
